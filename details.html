@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="css/details.css">
+  <title>Dataset details</title>
+</head>
+
+<body>
+    
+  <!--   -->
+  <!-- Header -->
+  <section id="header">
+    <div class="header container2">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>WIRIN<span></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <!-- <div class="hamburger">
+            <div class="bar"></div>
+          </div> -->
+          <ul>
+            <li><a href="index.html" data-after="Home"><i class = "fa fa-home"></i>  Home</a></li>
+            <!-- <li><a href="details.html" data-after="Service"><i class = "fa fa-clone"></i>  Dataset</a> -->
+            <li><a href = "#"><i class = "fa fa-clone"></i>  Dataset</a>
+              <div class = "sub_menu" id = "abc">
+                  <ul>
+                      <li><a href = "details.html">Details</a></li><br>
+                      <li><a href = "download.html">Download</a></li>
+                  </ul>
+              </div>
+              </li>
+            <li><a href="#projects" data-after="Projects"><i class = "fa fa-bookmark"></i>  Benchmarks</a></li>
+            <li><a href="#about" data-after="About"><i class = "fa fa-calendar"></i>  News and Events</a></li>
+            <li><a href="contacts.html" data-after="Contact"><i class = "fa fa-phone"></i>  Contacts</a></li>
+            <li><a href="login.html" data-after="Contact"><i class = "fa fa-user"></i>  Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+<br><br><br><br><br><br>
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container2">
+      <div>
+        <h1>Details <span></span></h1>
+        <h1>About <span></span></h1>
+        <h1>National Dataset</span></h1>
+        <!-- <a href="#about" type="button" class="cta">Dataset overview</a> -->
+      </div>
+      </div>
+  </section>
+  <!-- End Hero Section  -->
+  <!--national Dataset-->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">National <span>Dataset</span></h1>
+        <p>Creating a national dataset of annotated images is a complex task that requires a significant amount of resources and expertise. It's important to have a team with the necessary skills and experience in data collection, annotation, quality control, data management, and distribution. The dataset should be continuously updated and maintained to keep it relevant with the latest environments and conditions.The process typically involves the following steps:</p>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+         <div class="icon"><img src="img/Dataset_collection.png" /></div>
+          <div class="contact-info">
+            <h1>STEP 1: Data collection</h1>
+            
+           <h2>The first step is to collect a large and diverse set of images that represents the range of environments, conditions, and scenarios that autonomous vehicles are likely to encounter. This may involve using cameras mounted on vehicles, drones, or satellites, or using publicly available datasets. </h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+         <div class="icon"><img src="img/Annotaions.png" /></div>
+          <div class="contact-info">
+            <h1>STEP 2: Annotation</h1>
+            
+            
+            <h2>Once the images have been collected, they need to be annotated, which means adding labels and tags to the images to provide context and meaning. This can be done manually by human annotators, or automatically using machine learning algorithms. </h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+         <div class="icon"><img src="img/Quality_Control.webp" /></div>
+          <div class="contact-info">
+            <h1>STEP 3: Quality Control</h1>
+            <h2>After the images have been annotated, it's important to check the quality of the annotation to ensure that it is accurate and reliable. This may involve using a combination of manual and tool-based methods. </h2>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="img/data management.jpeg" /></div>
+          <div class="contact-info">
+            <h1>STEP 4: Data Management</h1>
+           <h2>Once the dataset is complete, it needs to be managed and stored in a way that makes it accessible and usable for researchers and developers. This may involve using a database management system or a cloud-based storage solution. </h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+        <div class="icon"><img src="img/Distribution.jpg" /></div>
+          <div class="contact-info">
+            <h1>STEP 5: Distribution</h1>
+            <h2>After the dataset is complete and has passed quality control, it needs to be distributed to researchers and developers who will use it to train and test autonomous vehicle systems</h2>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--end of nationam dataset-->
+  
+  <div class="projects-header">
+    <h1 class="section-title">Sensors<span> Used</span></h1>
+  </div>
+  <div class="card-container">
+    
+    <div class="card">
+      <img src="img/lidar.jpg" alt="image2">
+      <div class="card-text" target="_blank">
+        <h2>LIDAR</h2>
+        <p>LIDAR sensor uses lasers to measure the distance to objects and create 3D maps of the vehicle's surroundings
+
+        </p>
+      </div>
+      
+        <a href="https://en.wikipedia.org/wiki/Lidar" class = "card-button" target="_blank">More info</a>
+        
+    </div>
+    <div class="card">
+      <img src="img/ultrasonic.jpeg" alt="image1">
+      <div class="card-text">
+        <h2> Ultrasonic</h2>
+        <p>Ultrasonic sensors use sound waves to measure the distance to objects and detect obstacles in the vehicle's path.
+
+        </p>
+      </div>
+        <a href="https://en.wikipedia.org/wiki/Ultrasonic_transducer" class = "card-button" target="_blank">More info</a>
+    
+    </div>
+    <div class="card">
+      <img src="img/radar.jpeg" alt="image3">
+      <div class="card-text">
+        <h2>Radar</h2>
+        <p>  Radars emit radio waves to detect the presence, distance, and speed of objects. They can work in all weather conditions.
+
+            <br><br>
+        </p>
+      </div>
+        <a href="https://en.wikipedia.org/wiki/Radar" class = "card-button" target="_blank">More info</a>
+    
+    </div>
+    <div class="card">
+      <img src="img/gps" alt="image3">
+      <div class="card-text">
+        <h2>GPS</h2>
+        <p> Global Positioning System sensors are used to determine the vehicle's location and navigate.
+            <br><br>
+        </p>
+      </div>
+        <a href="https://en.wikipedia.org/wiki/Global_Positioning_System" class = "card-button" target="_blank">More info</a>
+    
+    </div>
+    <div class="card">
+      <img src="img/imu.webp" alt="image3">
+      <div class="card-text">
+        <h2>IMU</h2>
+        <p> Inertial Measurement Unit is a device that uses accelerometers and gyroscopes to track the vehicle's orientation and movement.
+            <br><br>
+        </p>
+      </div>
+        <a href="https://en.wikipedia.org/wiki/Inertial_measurement_unit" class = "card-button" target="_blank">More info</a>
+    
+    </div>
+    <div class="card">
+      <img src="img/encoder.jpeg" alt="image3">
+      <div class="card-text">
+        <h2>Wheel encoders</h2>
+        <p>WHeel encoder sensors are used to track the rotation of the vehicle's wheels and determine its speed and distance travelled.
+            <br><br>
+        </p>
+      </div>
+        <a href="https://docs.idew.org/code-robotics/references/physical-inputs/wheel-encoders" class = "card-button" target="_blank">More info</a>
+    
+    </div>
+  </div>
+ 
+  
+<!--ladar-->
+<div class="projects-header">
+  <h1 class="section-title">Types<span> of</span> LIDARS</h1>
+</div>
+<br><br><br><br><br><br><br><br>
+<div id="drag-container">
+  <div id="spin-container">
+    <!-- Add your images (or video) here -->
+    <img src="img/lidar.jpg" alt="">
+    <img src="img/mechanical lidar.png" alt="">
+    <img src="img/solid state lidar.jpg" alt="">
+    <img src="img/flash lidar.png" alt="">
+    <img src="img/lidar camera.jpg" alt="">
+    <img src="img/multi beam ladar.webp" alt="">
+    
+    
+    
+
+    <!-- Example add video  -->
+    
+
+    <!-- Text at center of ground -->
+    <p>3D Tiktok Carousel</p>
+  </div>
+  <div id="ground"></div>
+</div>
+
+<div id="music-container"></div>
+
+
+
+
+
+
+
+
+
+<!-- github corner (https://github.com/tholman/github-corners) -->
+<!-- <a href="https://github.com/HoangTran0410/3DCarousel" target="_blank" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#fff; color:#000; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style> -->
+<br><br><br><br><br><br><br><br>
+
+<div class="cardlidar">
+  
+  <div class="card-textlidar">
+    <h2>Mechanical LIDAR</h2>
+    <p>Mechanical LIDAR uses a spinning mirror to scan the environment and create a 3D point cloud. Mechanical LIDAR sensors are highly accurate, but they can be bulky and expensive.
+        <br><br>
+    </p>
+    <h2> Solid-state LIDAR</h2>
+    <p>Solid-state LIDAR uses a static mirror and a laser diode to scan the environment. Solid-state LIDAR sensors are smaller, cheaper and more robust than mechanical Lidar sensors, making them more suitable for automotive applications.
+        <br><br>
+    </p>
+    <h2>Flash LIDAR</h2>
+    <p>Flash LIDAR uses a high-powered laser to illuminate the entire field of view at once, creating a 3D point cloud in a single flash. Flash LIDAR sensors are highly accurate, but they are also very expensive and power-hungry
+        <br><br>
+    </p>
+    <h2> LIDAR-Camera Fusion</h2>
+    <p>LIDAR-Camera Fusion uses a combination of LIDAR sensor and cameras to provide both depth and color information. It's a cost-effective solution and also provides high-resolution data
+        <br><br>
+    </p>
+    <h2>Multi-beam LIDAR</h2>
+    <p>Multi-beam LIDAR uses multiple laser beams to scan the environment, providing a more detailed and accurate 3D point cloud. It's particularly useful for applications such as autonomous vehicles, where high resolution and accuracy are crucial.
+
+        <br><br>
+    </p>
+    
+  </div>
+    
+
+</div>
+<!--end of ladar-->
+<!--working of ladar-->
+
+
+
+<section id="contact">
+  <div class="contact container">
+    <div>
+      <h1 class="section-title">Working <span>of</span> LIDAR</h1>
+      <p>A LIDAR sensor typically consists of several main components: a laser, a mirror or lens to direct the laser beam, a detector to capture the reflected laser light, and electronic circuitry to process the data.</p>
+      <div style='text-align:center; padding-top:justify'>
+        <video id="myvideo" height=800 width= 1000 autoplay muted>
+          <source src="img/working of ladar.mp4" type="video/mp4">
+         
+        </video>
+        
+        </div>
+    </div>
+  </div>
+</section>
+
+  <script>
+    var video = document.getElementById("myvideo");
+    var observer = new IntersectionObserver(function(entries) {
+    if (entries[0].isIntersecting) {
+      video.currentTime = 0;
+      video.play();
+    }
+  });
+  observer.observe(video);
+  </script>
+<!--end of working of ladar-->
+<!--details about instruments-->
+<section id="contact">
+  <div class="contact container">
+    <div>
+      <h1 class="section-title">Ouster <span>LIDAR</span></h1>
+      
+    </div>
+  </div>
+</section>
+<div class="containery"><!-- Main container -->
+  <div class="img_overlay"></div><!-- overlay -->
+    <img src="img/outster.png"/><!-- image -->
+    
+    <p class="animated slideInUp"> Ouster's lidar sensors are used in a variety of applications, including self-driving vehicles, industrial automation, security, and mapping. The company's products are known for their high accuracy, long range, and ability to operate in challenging environments.
+      Ouster Lidar is a provider of high-resolution, solid-state lidar sensors for applications including self-driving vehicles, industrial automation, security, and mapping. Their 16-channel sensors offer high density point cloud data, with a field of view of 360 degrees and a maximum range of up to 130 meters. The sensors utilize micro-electromechanical (MEMS) technology, and offer reliable operation in challenging environments. They also have a low power consumption and compact form factor, making them well suited for integration into a wide range of systems.
+      Ouster Lidar's sensors use a spinning mechanism to emit laser beams in a 360-degree field of view. This allows them to capture a full, detailed 3D map of the environment in a single sweep. Ouster sensors are also known for their high resolution and accuracy </p> <!-- description -->
+</div>
+</div>
+<section id="contact">
+  <div class="contact container">
+    <div>
+      <h1 class="section-title">FLIR <span>Camera</span></h1>
+      
+    </div>
+  </div>
+</section>
+<!-- 2nd example -->
+<div class="containery"><!-- Main container -->
+  <div class="img_overlay"></div><!-- overlay -->
+    <img src="img/flir.png"/><!-- image -->
+    
+    <p class="animated tada"> FLIR cameras are thermal imaging cameras that are used in autonomous vehicles to capture images of the surrounding environment. These cameras work by detecting and measuring the infrared radiation emitted by objects in the environment. This allows them to detect and capture images of objects that are not visible to traditional visible-light cameras, such as in low-light or night-time conditions.
+FLIR cameras are particularly useful in autonomous vehicles because they can detect the heat signatures of other vehicles, pedestrians, and animals, even in complete darkness or heavy fog. This allows the vehicle's computer to detect and avoid potential hazards in the environment, even when the visibility is poor.In addition to detecting potential hazards, FLIR cameras can also be used to help the vehicle navigate by detecting and tracking the heat signatures of road markings and traffic signals.
+These cameras can be used in autonomous vehicles to detect potential hazards, such as other vehicles, pedestrians and animals, even in low-light or night-time conditions, helping the vehicle's computer to make decisions and navigate safely.
+
+ </p> <!-- description -->
+</div>
+</div>
+
+<!--end-->
+<!-- About Section -->
+
+
+
+
+<!-- End About Section -->
+  <br><br><br><br><br><br><br><br>
+  <hr style="color: rgb(16, 16, 80);">
+  <div class="projects-header">
+    <h1 class="section-title">Our <span>Team</span></h1>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    
+    <div class="logo-container">
+      <img src="img/rvce_correct.png" alt="logo 1" class="logo">
+      <img src="img/iisc_correct.png" alt="logo 3" class="logo">
+      <img src="img/wipro_correct.png" alt="logo 2" class="logo">
+      <img src="img/nid_correct.png" alt="logo 4" class="logo">
+    </div>
+    <br><br><br>
+ 
+  </footer>
+  <div class="footer-links">
+    <a href="mailto:wirin@rvce.edu.in">Contact Us | </a>
+    <a href="https://docs.google.com/document/d/1EJlkxEllP2Xn_U6OZWjRUSxULB77M4xt4JRkkfniro8/edit?usp=sharing" target="_blank">Terms and Conditions | </a>
+    <a href="https://docs.google.com/document/d/1Oh2g50tcgIFOVc85jfqQmcHLMD9ecF_DIDX6hFZc_U0/edit?usp=sharing" target="_blank">Privacy Policy</a>
+  </div>
+  <!-- End Footer -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
